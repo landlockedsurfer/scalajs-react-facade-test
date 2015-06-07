@@ -1,4 +1,4 @@
-package tutorial.webapp
+package reactjs
 
 import org.scalajs.dom
 
@@ -20,7 +20,7 @@ case class ReactInputTags() {
   }
 }
 
-object ReactBootstrapApp extends JSApp {
+object FacadeTestApp extends JSApp {
 
   def main(): Unit = {
     import japgolly.scalajs.react.vdom.all._
